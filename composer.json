@@ -1,0 +1,24 @@
+{
+    "name": "thinkphp-tech/think-orm-connector-tidb",
+    "description": "a think-orm connector for tidb database",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Bison 'goldeagle' Fan",
+            "email": "bison@bitseed.cn"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+        "topthink/think-orm": "^2.0"
+    },
+    "autoload": {
+        "files": [],
+        "psr-4": {
+            "think\\db\\connector": "src/"
+        }
+    }
+}
