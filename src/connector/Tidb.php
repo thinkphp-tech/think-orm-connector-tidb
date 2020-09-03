@@ -106,4 +106,5 @@ class Tidb extends PDOConnection
         return $info;
     }
 
+    public function getExplain(){ return ''; }
 }
